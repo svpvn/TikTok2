@@ -1,11 +1,9 @@
-
+import { useSelector, useDispatch } from 'react-redux';
 
 function App() {
-  return (
-    <div className="App">
-      <h2>sadasd</h2>
-    </div>
-  );
+    const test = useSelector((state) => state.app);
+    console.log(test);
+    return <div></div>;
 }
 
 export default App;
